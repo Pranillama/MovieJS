@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #131720;
+  font-family: sans-serif;
+  color: white;
+}
+h3 {
+  color: white;
+}
+.topnav {
+  overflow: hidden; /* overflow adds scroll or hides the element if the data inside the div is big*/
+  background-color: #131720;
+  padding: 10px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.topnav .search_container {
+  float: right;
+}
+form {
+  background-color: #151f30;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+}
+input {
+  font: 15px system-ui;
+  color: black;
+  height: 100%;
+  width: 100%;
+  padding: 6px;
+}
+.thumbnail {
+  height: 350px;
+  width: 260px;
+  border-radius: 19px;
+}
+.row {
+  display: flex; /*needed this to have free will arranging and spacing the row part of the layout not just the column */
+  flex-wrap: wrap; /*this fixed the issue of the length getting longer due to long text which cause the 
+  card to grow taller and the next row not fitting. this fixed it by droping it down nicely below.*/
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+.card {
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #151f30;
+}
