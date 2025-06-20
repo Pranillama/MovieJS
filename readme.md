@@ -1,1 +1,1 @@
-THIS IS A MOVIE APP
+Practice Movie application using CSS/HTML, JavaScript, Node.js, Mongodb
